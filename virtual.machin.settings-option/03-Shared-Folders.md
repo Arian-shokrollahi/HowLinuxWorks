@@ -16,4 +16,36 @@ Enable until next power off or suspend
 Click on “Always enabled”.
 - 4Add Folder: Click the Add button and select the folder you want to share from your host machine.
 
+#### حالا که این 4 کاره بالا رو انجام داید میریم سراغه تنظمات ترمینال و کد هایه درون ترمینال--->
+**نکته** این نکته رو مد نظر بگیرید که هر فولدری که از روی هاست بخوای بیاری رویه مهمان یا لینوکستون 2 حالت دارد-->
+
+**حالات 1-->**اگر تنظیماتش اوکی باشه درون دو پوشه:
+- /mnt/hgfs & /media/hgfs
+
+
+**حالت 2-->**حالات بعدی اینه که تنظیمات تنظیم نشده و باید هم پوشه hgfs رو بسازید هم وهم اگر میخواهی به صورت همیشگی هر فولدری که ادد میکنی بیاد درون مسیر (mnt/hgfs/) باید اون رو بزاری درون مسیر(etc/fstab/)
+
+- 5sudo apt update
+- 6sudo apt install open-vm-tools
+
+- 7sudo mkdir -p /mnt/hgfs
+- 8sudo mount -t fuse.vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other
+- 9sudo nano /etc/fstab--->alt + / mizani miri akhare khat-->add this text at last /etc/fstab:---->
+- add this(in fstab filesystem)-->.host:/    /mnt/hgfs    fuse.vmhgfs-fuse    defaults,allow_other    0    0
+
 ![shared folder location](option-image/Screenshot%20(308).png)
+
+---
+### summary
+1-این 
+
+
+
+
+
+
+
+
+
+
+
