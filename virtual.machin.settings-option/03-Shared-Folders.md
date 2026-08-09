@@ -36,7 +36,8 @@ Click on “Always enabled”.
 ![shared folder location](option-image/Screenshot%20(308).png)
 
 --- 
-
+### رخ نهایی کار به این صورت میشه
+[final](virtual.machin.settings-option/option-image/Screenshot (76).png)
 
 
 
