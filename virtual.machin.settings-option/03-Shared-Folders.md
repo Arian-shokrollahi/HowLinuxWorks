@@ -35,9 +35,7 @@ Click on “Always enabled”.
 
 ![shared folder location](option-image/Screenshot%20(308).png)
 
----
-
-1-این 
+--- 
 
 
 
